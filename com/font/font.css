@@ -1,0 +1,43 @@
+.webnote-font{
+  z-index: 10;
+}
+.webnote-font .dialogbox{
+  height: 498px;
+  width: 438px;
+}
+.webnote-font .main{
+  height: 466px;
+}
+.webnote-font .main .font-family,
+.webnote-font .main .font-style{
+  display: inline-block;
+  margin-right: 16px;
+}
+.webnote-font .main .sample{
+  border-color: white;
+  height: 78px;
+  margin-left: 196px;
+  margin-top: 28px;
+  width: 194px;
+}
+.webnote-font .main .script{
+  margin-left: 196px;
+  margin-top: 12px;
+}
+.webnote-font .main select{
+  height: 22px;
+  width: 214px;
+}
+.webnote-font .main .font-size{
+  display: inline-block;
+}
+.webnote-font .main .btn-ok{
+  bottom: 10px;
+  position: absolute;
+  right: 110px;
+}
+.webnote-font .main .btn-cancel{
+  bottom: 10px;
+  position: absolute;
+  right: 16px;
+}

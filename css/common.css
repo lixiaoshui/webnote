@@ -1,0 +1,51 @@
+.webnote-mask{
+  	height: 100%;
+  	left: 0;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	z-index: 10;
+}
+.webnotebox{
+  	border: 1px solid #0f7fd6;
+  	box-shadow: 10px 10px 10px #d6d6d6;
+  	box-sizing: border-box;
+  	cursor: default;
+  	margin: 0 auto;
+  	position: relative;
+  	top: 100px;
+  	user-select: none;
+}
+.webnote-titlebar{
+  	background-color: white;
+  	font-size: 1.3em;
+	height: 30px;
+}
+.webnote-titlebar .title{
+  	left: 10px;
+  	line-height: 30px;
+  	position: absolute;
+}
+.webnote-titlebar .close-btn{
+	color: gray;
+  	line-height: 30px;
+  	position: absolute;
+  	right: 0;
+  	text-align: center;
+  	width: 30px;
+}
+.webnote-titlebar .close-btn:hover{
+  	background-color: red;
+  	color: white;
+}
+.webnote-main{
+  	background-color: #f0f0f0;
+  	box-sizing: border-box;
+  	font-size: 1.2em;
+  	padding: 12px;
+  	position: relative;
+}
+.webnote-main .btn{
+  	height: 28px;
+  	width: 86px;
+}

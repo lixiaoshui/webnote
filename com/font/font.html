@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>字体</title>
+	<link rel="stylesheet" href="../../css/normalize.css">
+	<link rel="stylesheet" href="../../css/common.css">
+	<link rel="stylesheet" href="../list/list.css">
+	<link rel="stylesheet" href="font.css">
+</head>
+<body>
+	<div class="test">
+		<input type="button" value="弹出对话框">
+	</div>
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="../list/list.js"></script>
+	<script src="font.js"></script>
+	<script>
+		$(function () {
+			$btnTest = $('div.test>input[type="button"]');
+			$btnTest.click(function () {
+				$dlgFont.show();
+			});
+		});
+	</script>
+</body>
+</html>
